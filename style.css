@@ -1,9 +1,9 @@
 .card {
-    width: 700px;
+    width: 600px;
     height: 450px;
     display: flex;
     flex-direction:row;
-    border-radius: 25px;
+    border-radius: 10px;
     overflow: hidden;
     background-color: white;
 }
@@ -21,21 +21,39 @@ body {
 }
 .card > .content {
     justify-content: space-between;
-    width: 1000;
+    width: 1000px;
     display: flex;
     flex-direction: column;
     padding: 25px;
-   
-    
 }
 .card > .content > button {
 border-radius: 5px;
 background-color: hsl(158, 36%, 37%);
 color: white;
+font-family: 'Montserrat', sans-serif;
+height: 45px;
+padding: 10px;
 }
 .card > .content > .title {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-
-
+}
+.priceoff {
+    color: hsl(158, 36%, 37%) ;
+    font-size: 30px;
+}
+.realprice{
+    padding-left: 20px;
+    font-size: 12px;
+    text-decoration: line-through;
+}
+p{
+    font-weight: bold;
+    font-size: 28px;
+    color: hsl(212, 21%, 14%);
+}
+.head {
+    letter-spacing: 4px;
+    font-size: small;
+    padding-top: 10px;
 }
